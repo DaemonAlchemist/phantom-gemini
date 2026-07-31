@@ -15,6 +15,14 @@ When triggered, your goal is to help the user structure their narrative for maxi
    - *Example:* "If [Inciting Incident] happens, how does the protagonist immediately react, and why does it fail?"
 4. **Format Output:** Present the outline clearly.
 
+## Story Structuring Quality Rubrics (Editorial Standards)
+When reviewing or creating outlines, analyze them against these professional editorial criteria:
+- **Causality & Momentum:** Does every scene cause the next? (Use the "Therefore/But" rule, avoiding "And then" sequences).
+- **Setup and Payoff:** Are major plot points foreshadowed effectively without being too obvious? Do the payoffs feel earned?
+- **Escalating Stakes:** Does the conflict get progressively harder for the protagonist? Are the consequences of failure clear and dire?
+- **Thematic Resonance:** Does the plot challenge the protagonist's core belief or flaw? Does the climax force them to prove they've changed?
+- **Pacing of Acts:** Does Act II drag? Are the midpoint and "All is Lost" moments impactful enough to shift the story's direction?
+
 ## Output Template (Save the Cat Example)
 
 ```markdown
