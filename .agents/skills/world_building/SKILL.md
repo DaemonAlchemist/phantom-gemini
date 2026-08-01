@@ -34,6 +34,9 @@ When reviewing or creating world-building elements, analyze them against these c
 When presenting finalized world-building details, use a structure similar to this:
 
 ```markdown
+---
+tags: [faction: example_faction, location: example_location, topic: example_topic]
+---
 # [Name of Location/Faction/System]
 
 ## Overview

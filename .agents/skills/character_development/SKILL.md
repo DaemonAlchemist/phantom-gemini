@@ -34,6 +34,9 @@ When reviewing or creating character designs, analyze them against these criteri
 ## Output Template (Example)
 
 ```markdown
+---
+tags: [role: protagonist, archetype: reluctant_hero]
+---
 # [Character Name]
 *Role: [e.g., Protagonist, Antagonist]*
 

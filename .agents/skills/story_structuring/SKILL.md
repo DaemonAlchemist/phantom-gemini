@@ -26,6 +26,9 @@ When reviewing or creating outlines, analyze them against these professional edi
 ## Output Template (Save the Cat Example)
 
 ```markdown
+---
+tags: [act: 1, focus: inciting_incident]
+---
 # Novel Outline: [Working Title]
 
 ## Act I
