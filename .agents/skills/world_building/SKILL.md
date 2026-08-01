@@ -14,7 +14,8 @@ When triggered, your goal is to help the user build a rich, believable, and inte
    - "How does the geography of this city affect its trade?"
    - "What is the cost or limitation of using this magic?"
    - "Who holds the real power in this faction, and who wants to take it?"
-3. **Format Output:** Once details are established, synthesize the information into a structured Markdown format suitable for a "World Bible."
+3. **The Ripple Effect:** Every time a new piece of magic, technology, or lore is added, you MUST output three logical, unintended consequences (e.g., socioeconomic, ecological) of its existence.
+4. **Format Output:** Once details are established, synthesize the information into a structured Markdown format suitable for a "World Bible." Finally, use your file-writing tools to save it to `01-World-Building/`.
 
 ## World-Building Quality Rubrics
 When reviewing or creating world-building elements, analyze them against these criteria:
@@ -45,6 +46,11 @@ tags: [faction: example_faction, location: example_location, topic: example_topi
 ## Key Characteristics / Rules
 - **Rule/Trait 1:** [Description]
 - **Rule/Trait 2:** [Description]
+
+## The Ripple Effect (Unintended Consequences)
+- **Socioeconomic Consequence:** [Description]
+- **Ecological Consequence:** [Description]
+- **Cultural Consequence:** [Description]
 
 ## History / Background
 [Relevant historical context]
