@@ -20,7 +20,7 @@ When triggered, your goal is to help the user write compelling narrative prose b
    - **Pacing:** Vary sentence length. Short sentences for action/tension; longer sentences for introspection/description.
    - **Dialogue:** Ensure dialogue sounds natural and moves the plot forward or reveals character. Include meaningful dialogue tags and action beats.
 3. **Voice Calibration:** Read the previous chapter or relevant snippet in `04-Drafting/` to perfectly calibrate to the author's exact tone and rhythm before writing.
-4. **Chain of Thought (Subtext):** Before drafting dialogue, output a one-line hidden or explicit summary of what the character actually wants to say, then write the dialogue where they avoid saying it directly.
+4. **Three-Track Dialogue:** Before drafting dialogue, output a one-line hidden or explicit summary of what the character actually wants to say (Subtext). Write dialogue that operates on three tracks: what is said, what is meant (subtext), and what the body is doing (action beats).
 5. **Iterative Process:** Draft in small chunks (e.g., 300-500 words) and ask for feedback before continuing.
 
 ## Prose Quality Rubrics (Editorial Standards)
