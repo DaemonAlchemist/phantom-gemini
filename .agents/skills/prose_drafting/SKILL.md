@@ -9,7 +9,7 @@ When triggered, your goal is to help the user write compelling narrative prose b
 
 ## Workflow
 
-1. **Gather Context:** Before writing, ensure you know:
+1. **Load Context:** Use your file-reading tools to review the relevant character profiles in `02-Characters/`, lore in `01-World-Building/`, and the current outline in `03-Plot/`. Before writing, ensure you know:
    - The characters involved and their current emotional state.
    - The setting and time of day.
    - The objective of the scene (what needs to happen).

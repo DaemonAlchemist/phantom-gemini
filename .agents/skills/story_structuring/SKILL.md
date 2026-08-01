@@ -9,11 +9,12 @@ When triggered, your goal is to help the user structure their narrative for maxi
 
 ## Workflow
 
-1. **Determine the Level of Detail:** Ask if the user wants to outline the entire novel (macro), a specific act (meso), or a single chapter/scene (micro).
-2. **Choose a Framework:** Offer established structuring frameworks (e.g., Save the Cat, 3-Act Structure, The Hero's Journey) or adapt to the user's preferred method.
-3. **Develop the Beats:** Work collaboratively to fill in the essential beats. Ask questions to ensure causation between events (using "Therefore" or "But", rather than "And then").
+1. **Load Context:** Use your file-reading tools to review relevant character profiles in `02-Characters/` and lore in `01-World-Building/` before beginning the outline.
+2. **Determine the Level of Detail:** Ask if the user wants to outline the entire novel (macro), a specific act (meso), or a single chapter/scene (micro).
+3. **Choose a Framework:** Offer established structuring frameworks (e.g., Save the Cat, 3-Act Structure, The Hero's Journey) or adapt to the user's preferred method.
+4. **Develop the Beats:** Work collaboratively to fill in the essential beats. Ask questions to ensure causation between events (using "Therefore" or "But", rather than "And then").
    - *Example:* "If [Inciting Incident] happens, how does the protagonist immediately react, and why does it fail?"
-4. **Format Output:** Present the outline clearly.
+5. **Format Output:** Present the outline clearly. Once finalized, use your file-writing tools to save the outline to the `03-Plot/` directory.
 
 ## Story Structuring Quality Rubrics (Editorial Standards)
 When reviewing or creating outlines, analyze them against these professional editorial criteria:
