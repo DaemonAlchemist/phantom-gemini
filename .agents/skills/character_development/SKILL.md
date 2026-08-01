@@ -14,8 +14,9 @@ When triggered, your goal is to help the user create three-dimensional character
    - **Want:** What is the character's external goal?
    - **Need:** What is the character's internal flaw that they must overcome?
    - **Ghost/Wound:** What past event drives their current behavior?
+   - **The Lie:** What is the lie they believe about themselves or the world due to their past wound?
 3. **Character Interview:** Offer to conduct an "interview" with the character. You ask questions, and the user responds in character, or vice versa, to find the character's voice.
-4. **Format Output:** Synthesize the character details into a comprehensive profile.
+4. **Format Output:** Synthesize the character details into a comprehensive profile. Use your file-writing tools to save it to `02-Characters/`.
 
 ## Character Quality Rubrics
 When reviewing or creating character designs, analyze them against these criteria:
@@ -44,6 +45,7 @@ tags: [role: protagonist, archetype: reluctant_hero]
 - **Want (External Goal):** 
 - **Need (Internal Goal/Flaw):** 
 - **The Ghost (Backstory Wound):** 
+- **The Lie They Believe:** 
 
 ## Profile
 - **Physical Description:** 
