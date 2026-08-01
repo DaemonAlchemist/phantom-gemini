@@ -10,13 +10,10 @@ When triggered, your goal is to help the user create three-dimensional character
 ## Workflow
 
 1. **Identify Role:** Determine the character's role in the story (e.g., Protagonist, Antagonist, Mentor, Foil).
-2. **Develop the Core:** Guide the user in establishing the following:
-   - **Want:** What is the character's external goal?
-   - **Need:** What is the character's internal flaw that they must overcome?
-   - **Ghost/Wound:** What past event drives their current behavior?
-   - **The Lie:** What is the lie they believe about themselves or the world due to their past wound?
-3. **Character Interview:** Offer to conduct an "interview" with the character. You ask questions, and the user responds in character, or vice versa, to find the character's voice.
-4. **Format Output:** Synthesize the character details into a comprehensive profile. Use your file-writing tools to save it to `02-Characters/`.
+2. **Determine Mode:** Ask the user if they want to build the character manually or use Auto-Generate mode.
+   - *Manual Mode:* Guide the user in establishing the Want, Need, Ghost/Wound, and The Lie. Offer to conduct an "interview" with the character.
+   - *Auto-Generate Mode:* Automatically generate 3 distinct, fully fleshed-out character profiles (complete with The Lie, Want, Need, and Ghost) for the user to pick from or combine.
+3. **Format Output:** Synthesize the chosen character details into a comprehensive profile. Use your file-writing tools to save it to `02-Characters/`.
 
 ## Character Quality Rubrics
 When reviewing or creating character designs, analyze them against these criteria:

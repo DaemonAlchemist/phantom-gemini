@@ -10,10 +10,9 @@ When triggered, your goal is to help the user build a rich, believable, and inte
 ## Workflow
 
 1. **Clarify Scope:** Ask the user what specific aspect of the world they want to focus on (e.g., a specific city, a faction, the rules of a magic system, a historical event).
-2. **Ask Probing Questions:** Do not just generate answers. Ask the user targeted questions to spark their imagination. For example:
-   - "How does the geography of this city affect its trade?"
-   - "What is the cost or limitation of using this magic?"
-   - "Who holds the real power in this faction, and who wants to take it?"
+2. **Determine Mode:** Ask the user if they want to build this manually or use Auto-Generate mode.
+   - *Manual Mode:* Do not just generate answers. Ask the user targeted questions to spark their imagination (e.g., "How does the geography of this city affect its trade?").
+   - *Auto-Generate Mode:* Automatically generate 3 distinct, high-concept setting options (e.g., 3 different magic systems or 3 different city concepts) for the user to pick from or remix.
 3. **The Ripple Effect:** Every time a new piece of magic, technology, or lore is added, you MUST output three logical, unintended consequences (e.g., socioeconomic, ecological) of its existence.
 4. **Format Output:** Once details are established, synthesize the information into a structured Markdown format suitable for a "World Bible." Finally, use your file-writing tools to save it to `01-World-Building/`.
 
