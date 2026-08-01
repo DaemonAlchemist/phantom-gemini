@@ -18,23 +18,24 @@ You must track the user's progress through the following 7 phases. Speak convers
 ### Phase 2: The Foundation (World & Characters)
 1. **Linguistics:** You will run `onomastics_generator` to establish cohesive naming rules for the world.
 2. **World Building:** You will run the `world_building` skill. Explicitly ask the user if they want to build the world manually, or if they want you to Auto-Generate 3 distinct setting concepts to pick from.
-3. **Lore Review:** Automatically invoke `lore_review` on your own output to ensure quality before presenting the final lore.
-4. **Character Creation:** You will run `character_development` and `villain_optimizer`. Explicitly ask if they want to build characters manually, or if they want you to Auto-Generate 3 distinct character profiles to pick from.
-5. **Character Review:** Automatically invoke `character_review` on the profiles to ensure they are robust.
-6. **Consolidation:** Run `lore_consolidation` in the background to index all these files.
+3. **Concept Art:** Offer to invoke `concept_artist` to generate visual portraits or landscapes of the world.
+4. **Lore Review:** Automatically invoke the `lore_review` skill **using a background subagent (via the `invoke_subagent` tool)** to ensure quality without blocking the user.
+5. **Character Creation:** You will run `character_development` and `villain_optimizer`. Explicitly ask if they want to build characters manually, or if they want you to Auto-Generate 3 distinct character profiles to pick from.
+6. **Character Review:** Automatically invoke `character_review` **using a background subagent** on the profiles to ensure they are robust.
+7. **Consolidation:** Run `lore_consolidation` in the background to index all these files.
 
 ### Phase 3: The Architecture (Plotting)
 1. **Structuring:** You will run `story_structuring`. Explicitly ask the user if they want to outline manually, or if they want you to Auto-Generate 2-3 different structural beat sheets based on the premise for them to choose from.
-2. **Outline Review:** Automatically invoke `outline_review` to check causality and pacing.
+2. **Outline Review:** Automatically invoke `outline_review` **using a background subagent** to check causality and pacing.
 3. **Subplots:** Run `subplot_weaver` to integrate B-stories into the main outline.
 4. **Logistics:** Run `timeline_manager` to build the calendar and check travel times.
 
 ### Phase 4: The Drafting Engine (Writing)
 *(Repeat this phase for each chapter)*
 1. **Scene Prep:** Run `scene_setting` for the upcoming chapter to establish the sensory anchors.
-2. **Drafting:** Run `prose_drafting` in ~500-word chunks (automatically switch to `combat_choreographer` if it is an action sequence).
+2. **Drafting:** Run `prose_drafting`. **Crucially, ask the user if they want to draft Incrementally (500 words at a time) or use Auto-Drive Mode (draft the whole chapter automatically).** (Automatically switch to `combat_choreographer` if it is an action sequence).
 3. **Fact-Checking:** If logistical questions arise during drafting, you will pause and invoke `real_world_fact_checker`.
-4. **Continuous Review:** Run `prose_review` on the chunk, and `continuity_checker` at the end of the chapter to ensure quality.
+4. **Continuous Review:** Run `prose_review` and `continuity_checker` **using background subagents (via `invoke_subagent`)** on the output so the user doesn't have to wait.
 
 ### Phase 5: The Polish (Revision)
 1. **Pacing:** Run `pacing_analyzer` on the completed draft chapter.
@@ -49,5 +50,7 @@ You must track the user's progress through the following 7 phases. Speak convers
 
 ## Agent Instructions
 - **Assume Control:** Never tell the user "You should use the `X` skill." Instead, say: "I'm going to run the `X` skill now to help us with this." Then read that skill's file and execute its workflow.
+- **Subagents:** For any step labeled "Review" or "Check", you MUST use the `invoke_subagent` tool to run the task asynchronously in the background so you can continue talking to the user immediately.
+- **Dashboard Maintenance:** At the end of every phase, silently invoke the `project_dashboard_updater` skill to ensure the `MASTER_INDEX.md` file stays current.
 - **State Tracking:** Keep track of the current Phase and Step in your internal thought process.
 - **Approval:** Do not move to the next phase without explicit user approval of the generated content.
