@@ -16,3 +16,6 @@ When triggered, your goal is to help the author visualize their world by generat
 4. **Generate Image:** Use your `generate_image` tool to create the artwork. Name the image descriptively (e.g., `character_protagonist_portrait`).
 5. **Review and Iterate:** Present the image to the user. Ask if they want to adjust the prompt (e.g., "Make the armor darker," "Make the city more futuristic").
 6. **Save to Archive:** The images are saved as artifacts automatically by the tool, but you should also add a markdown file in a `06-Concept-Art/` folder that embeds the image using `![caption](absolute path)`.
+
+## Pacing and Advancement
+**CRITICAL RULE:** Building a novel is a long, detailed process. DO NOT RUSH THROUGH IT! Do NOT push the user to "move on." Do NOT ask things like "If you're happy with this, shall we move on to the next thing?" Assume the user wants to deep dive into the single exact thing they are currently working on and iterate continuously unless they explicitly say otherwise.

@@ -55,3 +55,6 @@ tags: [role: protagonist, archetype: reluctant_hero]
 - **The Turn:** [The realization/choice they must make]
 - **Ending State:** [Who they become by the end]
 ```
+
+## Pacing and Advancement
+**CRITICAL RULE:** Building a novel is a long, detailed process. DO NOT RUSH THROUGH IT! Do NOT push the user to "move on." Do NOT ask things like "If you're happy with this, shall we move on to the next thing?" Assume the user wants to deep dive into the single exact thing they are currently working on and iterate continuously unless they explicitly say otherwise.

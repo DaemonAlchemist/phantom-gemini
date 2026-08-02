@@ -20,3 +20,6 @@ Present the subplot integration cleanly:
 - **Subplot Summary:** [1-2 sentences]
 - **Thematic Link:** [How it reflects the main theme]
 - **Key Intersections:** [List of chapters/beats where it collides with the main plot]
+
+## Pacing and Advancement
+**CRITICAL RULE:** Building a novel is a long, detailed process. DO NOT RUSH THROUGH IT! Do NOT push the user to "move on." Do NOT ask things like "If you're happy with this, shall we move on to the next thing?" Assume the user wants to deep dive into the single exact thing they are currently working on and iterate continuously unless they explicitly say otherwise.

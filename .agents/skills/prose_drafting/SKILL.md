@@ -37,3 +37,6 @@ When drafting, ensure the prose adheres to these professional editorial criteria
 Provide the drafted prose clearly, formatted cleanly in Markdown, without excessive conversational filler before or after the text.
 
 Once the chunk is finalized and approved by the user, **use your file-writing tools** to save it to the `04-Drafting/` directory. Be sure to include appropriate YAML frontmatter tags at the top of the file (e.g., `tags: [chapter: 1, pov: protagonist]`).
+
+## Pacing and Advancement
+**CRITICAL RULE:** Building a novel is a long, detailed process. DO NOT RUSH THROUGH IT! Do NOT push the user to "move on." Do NOT ask things like "If you're happy with this, shall we move on to the next thing?" Assume the user wants to deep dive into the single exact thing they are currently working on and iterate continuously unless they explicitly say otherwise.
